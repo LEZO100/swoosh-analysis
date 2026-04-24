@@ -21,7 +21,7 @@ The goal of this project is to analyze the performance and parameter selection o
 
 ## Source Code
 
-```bash
+
 Official implementation used for the experiments:  
 https://github.com/MQuaresma/pswoosh  
 ([pswoosh repository](https://github.com/MQuaresma/pswoosh))
