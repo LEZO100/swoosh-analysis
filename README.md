@@ -1,2 +1,26 @@
-# swoosh-analysis
-Experimental evaluation of the SWOOSH NIKE scheme (performance and parameter analysis)
+# SWOOSH Benchmark Analysis
+
+This repository contains an experimental evaluation of the SWOOSH NIKE scheme.
+
+## Overview
+
+The goal of this project is to analyze the performance and parameter selection of SWOOSH, a lattice-based non-interactive key exchange scheme.
+
+## Contents
+
+- Execution of the reference implementation
+- Performance measurements:
+  - Key generation (keygen)
+  - Shared key derivation (skey_deriv)
+- Comparison with reported results
+
+## Environment
+
+- WSL2 (Linux)
+- Rust toolchain
+
+## How to run
+
+```bash
+cargo build --release
+cargo run --release --bin bench_scheme
