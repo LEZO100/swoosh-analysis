@@ -45,6 +45,7 @@ The following steps describe how to fully set up the environment and execute the
 
 For Debian, Ubuntu or WSL2:
 
+```bash
 sudo apt update
 sudo apt install -y build-essential
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
