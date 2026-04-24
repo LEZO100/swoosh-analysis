@@ -28,6 +28,8 @@ https://github.com/MQuaresma/pswoosh
 
 ## How to run
 
+Executed in a WSL2 Linux environment:
+
 ```bash
 cargo build --release
 cargo run --release --bin bench_scheme
