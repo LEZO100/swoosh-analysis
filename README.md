@@ -19,15 +19,17 @@ The goal of this project is to analyze the performance and parameter selection o
 - WSL2 (Linux)
 - Rust toolchain
 
-## How to run
-
-```bash
-cargo build --release
-cargo run --release --bin bench_scheme
-
 ## Source Code
 
 ```bash
 Official implementation used for the experiments:  
 https://github.com/MQuaresma/pswoosh  
 ([pswoosh repository](https://github.com/MQuaresma/pswoosh))
+
+
+## How to run
+
+```bash
+cargo build --release
+cargo run --release --bin bench_scheme
+
