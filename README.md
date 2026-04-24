@@ -31,3 +31,21 @@ Executed in a WSL2 Linux environment:
 ```bash
 cargo build --release
 cargo run --release --bin bench_scheme
+
+## Full Setup and Execution
+
+The following steps describe how to fully set up the environment and execute the SWOOSH benchmarks from scratch.
+
+### Requirements
+
+- Rust (stable) and Cargo  
+- GCC / build-essential  
+- Linux environment (recommended: WSL2)
+
+### Installation (Debian / Ubuntu / WSL2)
+
+```bash
+sudo apt update
+sudo apt install -y build-essential
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/env
