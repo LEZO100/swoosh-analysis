@@ -27,6 +27,7 @@ cargo run --release --bin bench_scheme
 
 ## Source Code
 
+```bash
 Official implementation used for the experiments:  
 https://github.com/MQuaresma/pswoosh  
 ([pswoosh repository](https://github.com/MQuaresma/pswoosh))
