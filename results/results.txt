@@ -1,0 +1,5 @@
+KeyGen: ~66 × 10^6 cycles
+Variation: 2–3 %
+
+Shared key derivation: ~4.4 × 10^6 cycles
+Variation: <1 %
