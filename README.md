@@ -24,3 +24,8 @@ The goal of this project is to analyze the performance and parameter selection o
 ```bash
 cargo build --release
 cargo run --release --bin bench_scheme
+
+## Source Code
+
+Official implementation used for the experiments:  
+[pswoosh repository] https://github.com/MQuaresma/pswoosh.git
