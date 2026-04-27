@@ -25,8 +25,8 @@ A continuación, se detallan los resultados obtenidos en las dos operaciones cr�
 
 | Operación    | Media (Ciclos)     | Variación | Ref. (Ciclos) | Observación                      |
 |--------------|--------------------|-----------|---------------|----------------------------------|
-| KeyGen       | ~66–67 × 10⁶       | 2–3 %     | —             | Fase de alto coste computacional |
-| skey_deriv   | ~4.4 × 10⁶         | < 1 %     | — / ~12 × 10⁶ | Alta eficiencia y estabilidad    |
+| KeyGen       | ~66–67 × 10⁶       | 2–3 %     |    -           | Fase de alto coste computacional |
+| skey_deriv   | ~4.4 × 10⁶         | < 1 %     |    < 12 × 10⁶ | Alta eficiencia y estabilidad    |
 
 ## Conclusiones del Análisis
 
