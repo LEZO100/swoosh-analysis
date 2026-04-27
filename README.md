@@ -4,7 +4,7 @@ Este repositorio contiene el análisis de rendimiento y la evaluación de parám
 
 ---
 
-##Resumen (Abstract)
+## Resumen (Abstract)
 
 Este trabajo analiza cómo la elección de parámetros influye en la seguridad, el coste computacional y la viabilidad práctica del esquema SWOOSH.
 
@@ -12,7 +12,7 @@ A partir de la implementación de referencia, se comparan resultados experimenta
 
 ---
 
-##Metodología
+## Metodología
 
 Para la obtención de métricas, se utilizó la implementación de referencia de SWOOSH desarrollada en Rust.
 
