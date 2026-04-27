@@ -18,8 +18,6 @@ Para la obtención de métricas, se utilizó la implementación de referencia de
     cargo build --release
     cargo run --release --bin bench_scheme
 
-    Usa el código con precaución.
-
 Se realizaron múltiples ejecuciones para mitigar la variabilidad y asegurar la consistencia de los datos.
 
 ## Resultados Clave
