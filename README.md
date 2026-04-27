@@ -13,7 +13,6 @@ Para la obtención de métricas, se utilizó la implementación de referencia de
     Entorno de ejecución: Linux operando bajo WSL2 (Windows Subsystem for Linux).
     Herramientas: Benchmarking integrado en la suite de cargo.
     Comandos utilizados:
-    bash
 
     cargo build --release
     cargo run --release --bin bench_scheme
