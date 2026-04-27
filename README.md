@@ -36,3 +36,8 @@ A continuación se detallan los resultados obtenidos en las dos operaciones crí
     Consistencia: Los resultados experimentales confirman que la derivación de clave (skey_deriv) es altamente eficiente, incluso superando las expectativas de las referencias bajo ciertos entornos.
     Coste de No Interactividad: El esquema sacrifica tamaño de clave (~220 KB) y coste en KeyGen a cambio de eliminar la interacción entre partes.
     Viabilidad: SWOOSH se presenta como una opción sólida para escenarios donde la reducción de interacción es prioritaria sobre el ancho de banda.
+
+## Código fuente
+
+Implementación oficial utilizada para los experimentos:  
+- https://github.com/MQuaresma/pswoosh
