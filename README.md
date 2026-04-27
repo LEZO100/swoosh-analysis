@@ -26,10 +26,10 @@ Se realizaron múltiples ejecuciones para mitigar la variabilidad y asegurar la 
 
 A continuación se detallan los resultados obtenidos en las dos operaciones críticas del esquema, comparándolos con las referencias de los autores (Gajland et al.):
 
-| Operación    | Media (Ciclos) | Variación | Ref. (Ciclos) | Observación                      |
-|--------------|----------------|-----------|---------------|----------------------------------|
-| KeyGen       |                | 2–3 %     | —             | Fase de alto coste computacional |
-| skey_deriv   |                | < 1 %     |               | Alta eficiencia y estabilidad    |
+| Operación    | Media (Ciclos)     | Variación | Ref. (Ciclos) | Observación                      |
+|--------------|--------------------|-----------|---------------|----------------------------------|
+| KeyGen       | ~66–67 × 10⁶       | 2–3 %     | —             | Fase de alto coste computacional |
+| skey_deriv   | ~4.4 × 10⁶         | < 1 %     | — / ~12 × 10⁶ | Alta eficiencia y estabilidad    |
 
 ## Conclusiones del Análisis
 
